@@ -8,9 +8,11 @@
     "removeComments": true,
     "sourceMap": true,
     "target": "ES6",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node"
   },
   "include": [
-    "./src"
+    "./src",
+    "index.d.ts"
   ]
 }

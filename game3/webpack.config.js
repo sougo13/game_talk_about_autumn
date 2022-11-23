@@ -20,9 +20,13 @@ module.exports = {
         loader: "ts-loader",
       },
       {
-        test: /\.css$/,
-        loader: "css-loader",
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
       },
+      {
+        test: /\.(webp)$/i,
+        type: 'asset/resource',
+      }
     ],
   },
   plugins: [
