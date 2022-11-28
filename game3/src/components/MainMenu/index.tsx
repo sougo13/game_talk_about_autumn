@@ -60,16 +60,16 @@ const MainMenu: React.FC = () => {
           Что бывает осенью?
         </div>
         <div onClick={() => handleClick(2)} className="main-menu-item">
-          Посчитай лесных животных — один-два-пять
+          Собираем и считаем листочки
         </div>
         <div onClick={() => handleClick(3)} className="main-menu-item">
-          Назови ласково
+          Один-много
         </div>
         <div onClick={() => handleClick(4)} className="main-menu-item">
-          Семья животных весной
+          Назови ласково
         </div>
         <div onClick={() => handleClick(5)} className="main-menu-item">
-          Один-одна-одно-одни
+          Отгадай загадки и назови детёныша
         </div>
       </div>
     </div>

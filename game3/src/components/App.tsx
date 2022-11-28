@@ -7,6 +7,9 @@ import FinalPage from "./FinalPage";
 import Glabels from "./Glabels";
 import HomeButton from "./HomeButton";
 import MainMenu from "./MainMenu";
+import OneMany from "./OneMany";
+import Riddles from "./Riddles";
+import Tenderly from "./Tenderly";
 
 export const routes = {
   game1: "/game1",
@@ -31,9 +34,11 @@ export const App: FC = () => {
               // <Route path="/animalscount" element={<AnimalsCount />} />
               // <Route path="/tenderly" element={<Tenderly />} />
               // <Route path="/family" element={<Family />} />
-              // <Route path="/onemany" element={<OneMany />} />
-              <Route path="/final" element={<FinalPage />} />
             }
+            <Route path={routes.game4} element={<Tenderly />} />
+            <Route path={routes.game5} element={<Riddles />} />
+            <Route path={routes.game3} element={<OneMany />} />
+            <Route path="/final" element={<FinalPage />} />
           </Routes>
         </HashRouter>
       </AlertState>
