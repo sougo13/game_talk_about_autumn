@@ -7,6 +7,7 @@
   padding: 10px;
   flex-direction: column;
   color: #4e138a;
+  box-sizing: border-box;
 }
 
 .main-menu-container {

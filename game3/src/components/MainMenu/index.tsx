@@ -1,29 +1,38 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./mainMenu.css";
 import september from "../../images/mounth/september.webp";
 import octember from "../../images/mounth/octember.webp";
 import november from "../../images/mounth/november.webp";
+import main_fairy from "../../images/main_fairy.webp";
+import { routes } from "../App";
+import { AlertContext } from "../../utils/alert/alertContext";
 
 const MainMenu: React.FC = () => {
   const navigate = useNavigate();
-  console.log("september: ", september);
+
+  const { hide } = useContext(AlertContext);
+
+  useEffect(() => {
+    hide();
+  }, []);
+
   const handleClick = (number: number) => {
     switch (number) {
       case 1:
-        navigate("/glabels");
+        navigate(routes.game1);
         break;
       case 2:
-        navigate("/animalscount");
+        navigate(routes.game2);
         break;
       case 3:
-        navigate("/tenderly");
+        navigate(routes.game3);
         break;
       case 4:
-        navigate("/family");
+        navigate(routes.game4);
         break;
       case 5:
-        navigate("/onemany");
+        navigate(routes.game5);
         break;
     }
   };
@@ -46,9 +55,9 @@ const MainMenu: React.FC = () => {
         </div>
       </div>
       <div className="main-menu-container">
-        <img className="fairy-test-img" src="./static/main_fairy.webp" />
+        <img className="fairy-test-img" src={main_fairy} />
         <div onClick={() => handleClick(1)} className="main-menu-item">
-          Полянки весенних цветов
+          Что бывает осенью?
         </div>
         <div onClick={() => handleClick(2)} className="main-menu-item">
           Посчитай лесных животных — один-два-пять

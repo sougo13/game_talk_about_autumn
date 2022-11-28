@@ -1,0 +1,93 @@
+.glabels-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 10px;
+  flex-direction: column;
+  color: #4e138a;
+  overflow: hidden;
+}
+
+.glabels-game-container {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: auto;
+  margin: 50px 100px 0 100px;
+}
+
+.carousel-root{
+  height: 100%;
+}
+
+.carousel{
+  height: 100%;
+}
+
+.carousel .slider-wrapper{
+  height: 100%;
+}
+
+.carousel .slider.animated{
+  height: 100%;
+}
+
+.carousel .slide {
+  height: 100%;
+} 
+
+.glabels-fairy-block {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.glabels-fairy-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.game-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 40%;
+}
+
+.glabels-img {
+  object-fit: cover;
+  width: clamp(50px, 150px, 20vh) !important;
+  height: clamp(50px, 150px, 20vh) !important;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.glabels-img-check{
+  opacity: 0.5;
+}
+
+.glabels-img-block{
+  width: clamp(50px, 150px, 20vh) !important;
+  height: clamp(50px, 150px, 20vh) !important;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.glabels-img-correct{
+  background: green;
+}
+
+.glabels-img-incorrect{
+  background: red;
+}
+
+.h1-title {
+  margin-bottom: 20px;
+}

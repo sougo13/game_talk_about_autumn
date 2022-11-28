@@ -1,0 +1,24 @@
+.answer-fairy {
+  position: fixed;
+  right: 0;
+  bottom: -200px;
+  z-index: 100;
+  transition: bottom .2s linear;
+  visibility: hidden;
+}
+
+.active {
+  visibility: visible;
+  bottom: 0;
+}
+
+.left  {
+  right: auto;
+  left: 0;
+}
+
+.answer-fairy-img {
+  width: 300px;
+  height: 450px;
+  object-fit: contain;
+}

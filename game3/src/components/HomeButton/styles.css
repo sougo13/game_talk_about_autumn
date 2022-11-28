@@ -1,0 +1,11 @@
+.home-button{
+  background-image: url('../../images/home.webp');
+  height: 130px;
+  width: 115px;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  background-size: cover;
+  cursor: pointer;
+  z-index: 10;
+}
