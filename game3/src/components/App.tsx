@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { Routes, Route, HashRouter } from "react-router-dom";
 import AlertState from "../utils/alert/AlertState";
+import AnimalsCount from "./AnimalsCount";
 import AnswerFairy from "./AnswerFairy";
 import "./app.css";
 import FinalPage from "./FinalPage";
@@ -30,11 +31,7 @@ export const App: FC = () => {
           <Routes>
             <Route path="/" element={<MainMenu />} />
             <Route path={routes.game1} element={<Glabels />} />
-            {
-              // <Route path="/animalscount" element={<AnimalsCount />} />
-              // <Route path="/tenderly" element={<Tenderly />} />
-              // <Route path="/family" element={<Family />} />
-            }
+            <Route path={routes.game2} element={<AnimalsCount />} />
             <Route path={routes.game4} element={<Tenderly />} />
             <Route path={routes.game5} element={<Riddles />} />
             <Route path={routes.game3} element={<OneMany />} />

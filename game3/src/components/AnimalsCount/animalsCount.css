@@ -1,0 +1,64 @@
+.animals-count-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  color: #4e138a;
+}
+
+.animals-count-block {
+  display: flex;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.animals-count-block-inactive {
+  opacity: 0.5;
+}
+
+.animals-count-answers-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 25px;
+  padding: 10px;
+  height: 90%;
+}
+
+.animals-count-answer {
+  width: 80px;
+  height: 80px;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  border: 3px solid rgb(81, 8, 150);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.animals-count-answer:hover {
+  background-color: #4c148375;
+}
+
+.animals-count-answer-inactive {
+  cursor: default;
+  background-color: unset;
+}
+
+.animals-count-img {
+  object-fit: fill;
+  width: 550px;
+  height: 400px;
+  margin: 10px 0;
+  border-radius: 15px;
+}
+
+.animals-count-column {
+  display: flex;
+  flex-direction: column;
+}

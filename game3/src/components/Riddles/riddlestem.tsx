@@ -10,17 +10,17 @@ const RiddlesItem: React.FC<OneManyItemProps> = ({ src1, src2 }) => {
   const [active, setActive] = useState("");
 
   const handleClick = () => {
-    setActive("one-many-second-img-active");
+    setActive("riddles-second-img-active");
   };
 
   return (
-    <div className={`one-many-item-block`}>
+    <div className={`riddles-item-block`}>
       <img
         onClick={handleClick}
-        className={`one-many-main-img ${active}`}
+        className={`riddles-main-img ${active}`}
         src={src1}
       />
-      <img className={`one-many-second-img ${active}`} src={src2} />
+      <img className={`riddles-second-img ${active}`} src={src2} />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-.one-many-page {
+.riddles-page {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,13 +9,13 @@
   padding-left: 150px;
 }
 
-.one-many-game-container {
+.riddles-game-container {
   display: flex;
   width: 100%;
   flex-direction: column;
 }
 
-.one-many-item-block {
+.riddles-item-block {
   display: flex;
   margin: 25px 0;
   width: 100%;
@@ -24,28 +24,28 @@
   justify-content: space-between;
 }
 
-.one-many-main-img {
+.riddles-main-img {
   object-fit: fill;
   width: 45%;
-  height: 100%;
+  height: auto;
   border-radius: 15px;
   cursor: pointer;
   transition: 1s;
 }
 
-.one-many-main-img:hover:not(.active) {
+.riddles-main-img:hover:not(.active) {
   transform: scale(1.1);
 }
 
-.one-many-second-img {
+.riddles-second-img {
   object-fit: fill;
   width: 45%;
-  height: 100%;
+  height: auto;
   border-radius: 15px;
   opacity: 0;
   transition: 1s;
 }
 
-.one-many-second-img-active {
+.riddles-second-img-active {
   opacity: 1;
 }

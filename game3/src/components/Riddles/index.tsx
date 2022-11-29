@@ -6,9 +6,9 @@ import './riddles.css';
 const Riddles: React.FC = () => {
 
   return (
-    <div className='one-many-page'>
+    <div className='riddles-page'>
       <h1>Отгадай загадки и назови детёныша</h1>
-      <div className='one-many-game-container'>
+      <div className='riddles-game-container'>
         {riddlesItems.map(item =>
           <OneManyItem
             key={item.id + 'parent'}
