@@ -18,7 +18,6 @@ const FinalPage: React.FC = () => {
       <div className="final-content-block">
         <img className="final-butterfly1" src={butterfly2} />
         <img className="final-butterfly2" src={butterfly2} />
-        <img className="final-butterfly" src={butterfly} />
         <img className="final_fairy" src={final_fairy} />
       </div>
     </div>
