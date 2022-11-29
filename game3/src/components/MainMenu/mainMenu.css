@@ -6,7 +6,7 @@
   width: 100%;
   padding: 10px;
   flex-direction: column;
-  color: #4e138a;
+  color: #000000;
   box-sizing: border-box;
 }
 
@@ -24,19 +24,20 @@
 }
 
 .main-menu-item {
+  font-weight: bold;
   display: flex;
   font-size: 24px;
   width: clamp(100px, 600px, 80%);
   height: clamp(20px, 100px, 13%);
-  border: 2px solid #4e138a;
+  border: 1px solid #000000;
   border-radius: 15px;
   padding: 5px;
   margin-bottom: 15px;
   align-items: center;
   justify-content: center;
-  background-color: rgba(173, 139, 211, 0.678);
+  background-color:  rgb(240 237 100 / 68%);
   text-align: center;
-  color: #350d5c;
+  color: #000000;
   transition: 1s;
   cursor: pointer;
 }
@@ -79,7 +80,7 @@
   text-shadow: 0px 0px 1px black;
   margin-bottom: 5px;
   border-radius: 5px;
-  background-color: #58535e65;
+  background-color: rgb(240 237 100 / 68%);
   width: 100%;
   justify-content: center;
 }
@@ -88,6 +89,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .fairy-test-img{

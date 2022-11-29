@@ -17,7 +17,7 @@
   flex-wrap: wrap;
   justify-content: center;
   overflow-y: auto;
-  margin: 50px 100px 0 100px;
+  margin: 0 100px;
 }
 
 .carousel-root{
@@ -63,8 +63,8 @@
 
 .glabels-img {
   object-fit: cover;
-  width: clamp(50px, 150px, 20vh) !important;
-  height: clamp(50px, 150px, 20vh) !important;
+  width: clamp(200px, 500px, 40vh) !important;
+  height: clamp(200px, 500px, 40vh) !important;
   border-radius: 15px;
   cursor: pointer;
 }
@@ -74,10 +74,10 @@
 }
 
 .glabels-img-block{
-  width: clamp(50px, 150px, 20vh) !important;
-  height: clamp(50px, 150px, 20vh) !important;
+  width: clamp(200px, 500px, 40vh) !important;
+  height: clamp(200px, 500px, 40vh) !important;
   border-radius: 15px;
-  margin: 10px;
+  margin: 30px;
 }
 
 .glabels-img-correct{
