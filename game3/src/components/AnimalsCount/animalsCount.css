@@ -5,7 +5,7 @@
   height: 100%;
   width: 100%;
   padding: 10px;
-  color: #4e138a;
+  color: #000000;
 }
 
 .animals-count-block {
@@ -36,13 +36,13 @@
   font-size: 45px;
   text-align: center;
   font-weight: bold;
-  border: 3px solid rgb(81, 8, 150);
+  border: 3px solid rgb(0, 0, 0);
   border-radius: 15px;
   cursor: pointer;
 }
 
 .animals-count-answer:hover {
-  background-color: #4c148375;
+  background-color: rgb(220 198 82 / 68%);
 }
 
 .animals-count-answer-inactive {

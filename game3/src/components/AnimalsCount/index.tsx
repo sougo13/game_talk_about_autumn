@@ -21,9 +21,7 @@ const AnimalsCount: React.FC = () => {
 
   return (
     <div className="animals-count-page">
-      <h1 style={{ margin: "0 110px" }}>
-        Посчитай лесных животных — один-два-пять
-      </h1>
+      <h1 style={{ margin: "0 110px" }}>Собираем и считаем листочки</h1>
       <div className="animals-count-column">
         {animalsCount.map((animal, i) => (
           <AnimalsCountItem
